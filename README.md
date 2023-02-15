@@ -1,6 +1,7 @@
 # StoreContacts
-StoreContacts is simple web application used to store contact details (name, phone, email and address ). This is created to showcase how MongoDB(Database) , ejs(template engine) and Node Js works.
+StoreContacts is simple web application used to store contact details (name, phone, email and address ). This is created to showcase how MongoDB(Database) , ejs(template engine), express and Node Js works.
 
+This project includes Create, Read and Delete operations.
 HOW TO USE:
 Step1: Clone or download it
 Step2: Do npm i 
