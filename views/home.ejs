@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>
+        <%= title %>
+    </title>
+</head>
+<nav>
+    <ul>
+        <li><a href="/home">Home</a></li>
+        <li><a href="/contacts">Contacts</a></li>
+    </ul>
+</nav>
+<h1>Enter details to add to contacts</h1>
+<form action="/addContact" method="POST">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="contactName" required><br>
+    <label for="phone">Phone</label>
+    <input type="text" name="phone" id="contactPhone" required><br>
+    <label for="email">Email</label>
+    <input type="text" name="email" id="contactEmail" required><br>
+    <label for="address">Address</label>
+    <input type="text" name="address" id="contactAddress" required><br>
+    <button type="submit">Add to contacts</button>
+</form>
+
+<body>
+</body>
+
+</html>
